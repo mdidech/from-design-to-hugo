@@ -1,5 +1,5 @@
 .header{
-
+background-color: #4F5050;
 }
 .header-container{
  width:90%;
@@ -8,12 +8,13 @@ margin:0 auto;
 display:flex;
 justify-content: space-between;
 align-items: center;
+
 }
 .header-logo{
-padding:0.75em;
+padding:0.65em;
  background-color:#A80000;
  color:#f2ccb7;
- font-size:30px ;
+ font-size:25px ;
  font-family: 'Prata',sans-serif;
 
 }
