@@ -1,11 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Prata&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: burlywood;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 /* Common */
+.header-container {
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  padding: 0.75em;
+  background-color: #A80000;
+  color: #f2ccb7;
+  font-size: 30px;
+  font-family: "Prata", sans-serif;
+}
+
+.header-nav {
+  display: flex;
+  gap: 1em;
+}
+.header-nav .header-nav-item {
+  list-style: none;
+}
+.header-nav .header-nav-item a {
+  font-size: 1.2em;
+  color: white;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+}
+
+.header-container {
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  padding: 0.75em;
+  background-color: #A80000;
+  color: #f2ccb7;
+  font-size: 30px;
+  font-family: "Prata", sans-serif;
+}
+
+.header-nav {
+  display: flex;
+  gap: 1em;
+}
+.header-nav .header-nav-item {
+  list-style: none;
+}
+.header-nav .header-nav-item a {
+  font-size: 1.2em;
+  color: white;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+}
+
 /*  end Common */
 /*  Home */
 /*  end Home */
 /*  Blog */
 /*  end Blog */
-body {
-  background-color: burlywood;
-}
 
 /*# sourceMappingURL=bundle.css.map */
