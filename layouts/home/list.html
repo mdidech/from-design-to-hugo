@@ -1,6 +1,19 @@
 {{ define "main" }}
 
-{{ partial "home/hero.html" . }}
-{{ partial "home/about.html" . }}
+{{ partial "home/hero.html"  }}
+{{ partial "home/about.html"  }}
+{{ partial "home/projects.html"  }}
 
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+ const swiper = new Swiper('.swiper', {
+   loop: true,
+   pagination: {
+     el: '.swiper-pagination',
+     clickable: true,
+   },
+ });
+</script>
 {{ end }}

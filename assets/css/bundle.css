@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Prata&display=swap");
+/* Sizes */
+/* End Sizes */
 * {
   margin: 0;
   padding: 0;
@@ -156,6 +158,60 @@ a {
   display: inline-block;
   margin-bottom: 0.75em;
   font-size: 1.1rem;
+}
+
+.project {
+  padding-top: 80px;
+  padding-bottom: 128px;
+  background-color: #ffffff;
+}
+
+.project-container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.project-title {
+  font-family: "Inter";
+  font-size: 3rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+.project-slider {
+  height: 610px;
+  margin-bottom: 50px;
+}
+.project-slider .swiper-wrapper {
+  height: 560px;
+}
+.project-slider .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.project-slider .swiper-pagination {
+  bottom: 0px;
+}
+.project-slider .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  margin: 0 6px;
+  opacity: 1;
+  background-color: #E2E2E2;
+}
+.project-slider .swiper-pagination-bullet-active {
+  background-color: #C4C4C4;
+}
+
+.project-paragraph {
+  font-family: "Inter";
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 42px;
+  color: #000000;
 }
 
 /*  end Home */
