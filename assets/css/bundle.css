@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: burlywood;
+  background-color: rgba(51, 51, 51, 0.8);
 }
 
 a {
@@ -14,6 +14,10 @@ a {
 }
 
 /* Common */
+.header {
+  background-color: #4F5050;
+}
+
 .header-container {
   width: 90%;
   max-width: 1400px;
@@ -24,10 +28,10 @@ a {
 }
 
 .header-logo {
-  padding: 0.75em;
+  padding: 0.65em;
   background-color: #A80000;
   color: #f2ccb7;
-  font-size: 30px;
+  font-size: 25px;
   font-family: "Prata", sans-serif;
 }
 
@@ -79,6 +83,49 @@ a {
 
 /*  end Common */
 /*  Home */
+.hero {
+  background: url("../img/welcome-image.png") center center/cover no-repeat, linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+.hero-container {
+  height: 90vh;
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+.hero-container .hero-title {
+  font-size: 2.5rem;
+  margin-bottom: 0.5em;
+}
+.hero-container .hero-text {
+  font-size: 1.3rem;
+  margin-bottom: 1.8em;
+  font-weight: lighter;
+}
+.hero-container .hero-btn {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  color: white;
+  text-transform: capitalize;
+  padding: 0.5em 1.1em;
+  border: 2px solid white;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.hero-container .hero-btn:hover {
+  background: white;
+  color: #000;
+}
+
 /*  end Home */
 /*  Blog */
 /*  end Blog */
