@@ -1,4 +1,7 @@
+@import "typography.scss";
 @import "variables.scss";
+@import "globals.scss";
+
 
 /* Common */
 @import "partials/common/header.scss";
@@ -13,6 +16,3 @@
 /*  Blog */
 
 /*  end Blog */
-body{
- background-color:$color-orange;
-}
