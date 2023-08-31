@@ -21,10 +21,11 @@ padding:0.75em;
 
  display: flex;
  gap:1em;
- .header-nav-item{
-  list-style: none;
+ list-style: none;
+ .nav-item{
+
   a{
-   font-size: 1.2em;
+   font-size: 1.1em;
    color:white;
    cursor: pointer;
    font-family: "Inter",sans-serif;
