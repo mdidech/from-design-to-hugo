@@ -1,5 +1,5 @@
 ---
 title: "Blog"
-type: "Test"
+type: "blog"
 ---
 Blog Posts
