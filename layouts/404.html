@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+<main id="main">
+ <div class="notFound-container">
+  <div></div>
+  <div>
+   <h1 id="title">404</h1>
+   <p class="error-msg">Sorry, the page you're looking for doesn't exist</p>
+  <a href="{{ "" | relURL }}" class="btn"><i class="fa-solid fa-house icon"></i>  Home</a>
+  <a href="/contact" class="btn"><i class="fa-solid fa-address-card icon"></i>  Contact</a>
+  </div>
+ </div>
+</main>
+
+{{ end }}
